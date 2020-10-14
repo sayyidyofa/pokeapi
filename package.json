@@ -1,0 +1,30 @@
+{
+  "name": "pokeapi",
+  "version": "1.0.0",
+  "description": "Simple Pokemon API",
+  "main": "server.js",
+  "scripts": {
+    "seed": "md-seed run",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "pokemon",
+    "api",
+    "express",
+    "nodejs",
+    "graphql"
+  ],
+  "author": "sayyidyofa@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "graphql": "^15.3.0",
+    "mongoose": "^5.10.5"
+  },
+  "devDependencies": {
+    "mongoose-data-seed": "^2.1.6",
+    "nodemon": "^2.0.4"
+  }
+}
