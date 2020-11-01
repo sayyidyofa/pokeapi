@@ -12,4 +12,4 @@ Setting up for development:
  - Run `npm run seed` to seed your database with pokemon sample data
  - Run `npm run dev` to start the development version of the app
  - Wait until console log prints `MongoDB database connection established successfully`
- - Visit `http://localhost:5500/graphql` to try the app
+ - Visit `http://127.0.0.1:5500/graphql` to try the app
